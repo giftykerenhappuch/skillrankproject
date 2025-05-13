@@ -1,0 +1,256 @@
+/* Basic Page Styles */
+.budget-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #38b2ac, #4299e1);
+}
+
+.content {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #2c5282;
+}
+
+.description {
+  font-size: 1.25rem;
+  color: #2d3748;
+  margin-bottom: 20px;
+}
+
+.budget-input {
+  padding: 12px;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+}
+
+.budget-input:focus {
+  border-color: #38b2ac;
+  box-shadow: 0 0 0 2px rgba(56, 178, 172, 0.5);
+}
+
+.start-shopping-btn {
+  background: linear-gradient(135deg, #38b2ac, #4299e1);
+  padding: 12px;
+  font-size: 1.25rem;
+  width: 100%;
+  margin-bottom: 20px;
+  border: 2px solid #e2e8f0;
+  border-radius: 8px;
+  outline: none;
+}
+
+.start-shopping-btn:hover {
+  background: linear-gradient(135deg, #38b2ac, #2c5282);
+}
+
+.start-shopping-btn:focus {
+  outline: none;
+}
+/* Gifts Page Styling */
+
+.gifts-page {
+  padding: 40px;
+  background-color: #f7fafc;
+  min-height: 100vh;
+}
+
+.page-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  color: #2c5282;
+}
+
+.gift-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.gift-card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gift-image {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+.gift-name {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: #2d3748;
+  margin-bottom: 8px;
+}
+
+.gift-price {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-bottom: 12px;
+}
+
+.gift-button {
+  background: linear-gradient(135deg, #38b2ac, #4299e1);
+  color: white;
+  padding: 12px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  width: 100%;
+}
+
+.gift-button:hover {
+  background: linear-gradient(135deg, #319795, #2b6cb0);
+}
+
+.checkout-section {
+  margin-top: 40px;
+  text-align: right;
+}
+
+.total-price {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #2d3748;
+}
+
+.checkout-button {
+  background: linear-gradient(135deg, #48bb78, #38a169);
+  color: white;
+  padding: 14px 24px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 8px;
+  margin-top: 12px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.checkout-button:hover {
+  background: linear-gradient(135deg, #38a169, #2f855a);
+}
+/* Exceed Page Styling */
+
+.exceed-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fef2f2;
+}
+
+.exceed-box {
+  background-color: #ffe5e5;
+  padding: 40px;
+  border-radius: 16px;
+  text-align: center;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.exceed-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e53e3e;
+}
+
+.exceed-message {
+  font-size: 1.1rem;
+  color: #4a5568;
+  margin-top: 12px;
+}
+
+.back-button {
+  margin-top: 20px;
+  background: linear-gradient(135deg, #f56565, #c53030);
+  color: white;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.back-button:hover {
+  background: linear-gradient(135deg, #c53030, #9b2c2c);
+}
+/* Bill Page Styling */
+
+.bill-container {
+  padding: 40px;
+  max-width: 700px;
+  margin: 60px auto;
+  background-color: #f9fafb;
+  border-radius: 16px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.bill-title {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 24px;
+  color: #2d3748;
+}
+
+.bill-table-container {
+  overflow-x: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+}
+
+.bill-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.bill-table th,
+.bill-table td {
+  padding: 14px 20px;
+  border-bottom: 1px solid #e2e8f0;
+  text-align: left;
+}
+
+.bill-table th {
+  background-color: #edf2f7;
+  color: #2d3748;
+  font-weight: 600;
+}
+
+.bill-table tr:hover {
+  background-color: #f7fafc;
+}
+
+.bill-total {
+  text-align: right;
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 20px;
+  color: #2f855a;
+}
